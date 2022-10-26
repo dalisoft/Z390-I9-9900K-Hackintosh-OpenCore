@@ -46,7 +46,7 @@ It took my one week and it was very fun and challenging to get it working, findi
 
 ## Current issues
 
-- Bluetooth lags, see [here](ttps://www.reddit.com/r/hackintosh/comments/yeaa2b/bluetooth_pane_is_lagging_with_entries_os/) for video
+- Bluetooth lags, see [here](https://www.reddit.com/r/hackintosh/comments/yeaa2b/bluetooth_pane_is_lagging_with_entries_os/) for video
 - Entering to sleep takes 20-40 seconds
 - Wake from sleep does not work by keyboard after `pmset` changing
 - System stutters, micro-freeze and/or lags/delays
