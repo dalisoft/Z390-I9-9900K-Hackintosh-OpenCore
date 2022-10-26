@@ -91,6 +91,10 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 - [MaciASL](https://github.com/acidanthera/MaciASL)
 - [Hackintool](https://github.com/headkaze/Hackintool)
 
+## Debug-mode enable
+
+Just run `git apply debug.patch`, copy `config.plist` to your **EFI** folder and verbose mode will be enabled with additional tweaks.
+
 ## Useful Links
 
 - <https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html>
