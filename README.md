@@ -14,22 +14,23 @@ It took my one week and it was very fun and challenging to get it working, findi
 
 ## My build parts
 
-| Name         | Model                           |
-| ------------ | ------------------------------- |
-| Motherboard  | Gigabyte Aorus Z390 Pro Wi-Fi   |
-| CPU          | Intel Core i9-9900K             |
-| CPU Cooler   | CM MasterLiquid 240ML           |
-| GPU          | Sapphire Nitro RX 470 4GB       |
-| Memory       | Crucial Ballistic 16GB 3000CL15 |
-| SSD macOS    | Samsung 970 EVO 500GB           |
-| SSD Work     | Samsung 970 EVO+ 500GB          |
-| HDD          | Seagate 12TB (8+4)              |
-| PSU          | CM 1200W Platinum               |
-| Case         | Gamdias Athena M2 Elite         |
-| Mouse        | Logitech K470                   |
-| Web-camera   | Logitech C920 FullHD            |
-| Connectivity | Fenvi T919 1300Mbps             |
-| Headset      | Edifier G4                      |
+| Name         | Model                            |
+| ------------ | -------------------------------- |
+| Motherboard  | Gigabyte Aorus Z390 Pro Wi-Fi    |
+| CPU          | Intel Core i9-9900K              |
+| CPU Cooler   | CM MasterLiquid 240ML            |
+| GPU          | Sapphire Nitro RX 470 4GB        |
+| Memory       | Crucial Ballistic 16GB 3000CL15  |
+| SSD macOS    | Samsung 970 EVO 500GB            |
+| SSD Work     | Samsung 970 EVO+ 500GB           |
+| HDD          | Seagate 12TB (8+4)               |
+| PSU          | CM 1200W Platinum                |
+| Case         | Gamdias Athena M2 Elite          |
+| KB+Mouse     | Logitech K470 (if wants VM)      |
+| KB+Mouse     | 🍏 Magic Keyboard 2 + Trackpad 2 |
+| Web-camera   | Logitech C920 FullHD             |
+| Connectivity | Fenvi T919 1300Mbps              |
+| Headset      | Edifier G4                       |
 
 ## Status
 
