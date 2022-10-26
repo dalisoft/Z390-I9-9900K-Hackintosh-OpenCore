@@ -74,18 +74,25 @@ It took my one week and it was very fun and challenging to get it working, findi
 | Power Nap              | Not working | Disabled as workaround to fix wake-up itself                                                                        |
 | Bluetooth lags         | Not fixed   | See **Bluetooth** link above                                                                                        |
 
-## Required tools
+## Prerequisite
 
-- OpenCore Configurator
-- PlistEdit Pro / ProperTree
-- GemSMBIOS
-- VDADecoder
-- MaciASL
-- Hackintool
+Please understand all OpenCore configuration by reading [Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/0.5.9/Docs/Configuration.pdf)
+
+## Guides
+
+- Read over <https://dortania.github.io/>
+
+### Tools
+
+- [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
+- [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/) or [ProperTree](https://github.com/corpnewt/ProperTree)
+- [GemSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+- [VDADecoder](https://github.com/cylonbrain/VDADecoderCheck)
+- [MaciASL](https://github.com/acidanthera/MaciASL)
+- [Hackintool](https://github.com/headkaze/Hackintool)
 
 ## Useful Links
 
-- <https://dortania.github.io/> (You can start at here)
 - <https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html>
 
 ## Hard-to-find threads
