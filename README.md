@@ -30,6 +30,36 @@ It took my one week and it was very fun and challenging to get it working, findi
 | Connectivity | Fenvi T919 1300Mbps             |
 | Headset      | Edifier G4                      |
 
+## Status
+
+| Features               | Status      | Issues                                                                                                              |
+| ---------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------- |
+| Ethernet               | Working     | -                                                                                                                   |
+| Wi-Fi                  | Working     | -                                                                                                                   |
+| Bluetooth              | Working     | Lagging, see [here](https://www.reddit.com/r/hackintosh/comments/yeaa2b/bluetooth_pane_is_lagging_with_entries_os/) |
+| iGPU                   | Working     | -                                                                                                                   |
+| dGPU + HW acceleration | Working     | -                                                                                                                   |
+| On-board audio         | Working     | -                                                                                                                   |
+| App Store              | Working     | -                                                                                                                   |
+| iCloud                 | Working     | -                                                                                                                   |
+| Shutdown / Restart     | Working     | -                                                                                                                   |
+| USB                    | Working     | No issues, see **USBPorts kext**                                                                                    |
+| Handoff                | Working     | -                                                                                                                   |
+| Airdrop, AirPlay       | Working     | -                                                                                                                   |
+| Continuity             | Working     | -                                                                                                                   |
+| Apple TV+              | Working     | Sometimes it does not work, idk why?                                                                                |
+| File Vault             | Not tested  | -                                                                                                                   |
+| HDMI audio             | Not tested  | -                                                                                                                   |
+| All DP/HDMI ports      | Not tested  | -                                                                                                                   |
+| Dual monitor from boot | Not tested  | -                                                                                                                   |
+| Apple Music / iTunes   | Not tested  | -                                                                                                                   |
+| iMessage               | Not working | It does not work on my Macs                                                                                         |
+| FaceTime               | Not working | Same as iMessage                                                                                                    |
+| DRM                    | Not working | Tested in Safari (Netflix), on Chrome works                                                                         |
+| Wake/Sleep             | Not working | Works but not properly, entering sleep takes 20-40 sec                                                              |
+| Power Nap              | Not working | Disabled as workaround to fix wake-up itself                                                                        |
+| Bluetooth lags         | Not fixed   | See **Bluetooth** link above                                                                                        |
+
 ## Required tools
 
 - OpenCore Configurator
