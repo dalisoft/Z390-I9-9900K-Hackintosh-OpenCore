@@ -6,6 +6,8 @@ It took my one week and it was very fun and challenging to get it working, findi
 
 **I do not provide any warranty nor support, use at your own risk**
 
+![About macOS](./images/about.png)
+
 ## My BIOS settings
 
 **DO NOT JUST COPY MY SETTINGS, IT MAY HURT YOUR PERFORMANCE OR CPU**
@@ -33,6 +35,14 @@ It took my one week and it was very fun and challenging to get it working, findi
 | Headset      | Edifier G4                       |
 | Monitor 1    | Samsung U28E590D                 |
 | Monitor 2    | LG 27UK850-W                     |
+
+## Benchmark
+
+| Name       | Link                                               |
+| ---------- | -------------------------------------------------- |
+| CPU        | <https://browser.geekbench.com/v5/cpu/18212261>    |
+| dGPU Metal | <https://browser.geekbench.com/v5/compute/5757443> |
+| iGPU Metal | <https://browser.geekbench.com/v5/compute/5757512> |
 
 ## Status
 
