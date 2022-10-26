@@ -106,3 +106,12 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 ## Similar OC EFI shared folders
 
 - <https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i9-9900k-5700XT>
+- <https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore>
+- <https://github.com/vanthanhtran245/z390-aorus-pro-wifi-hackintosh>
+- <https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh>
+- <https://github.com/onmotion/hackintosh-z390d/blob/master/README.md>
+- <https://github.com/kakabala/Gigabyte_Z390UD_9700F_OC0.62_Hackintosh>
+- <https://github.com/czombos/asus-rog-strix-z390-i-gaming-hackintosh>
+- <https://github.com/markuslohn/asus-rog-z390i-hackintosh>
+- <https://github.com/idev1669/Hackintosh-Opencore-Z390-A>
+- <https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX_OC>
