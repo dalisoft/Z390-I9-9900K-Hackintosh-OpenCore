@@ -44,6 +44,13 @@ It took my one week and it was very fun and challenging to get it working, findi
 | dGPU Metal | <https://browser.geekbench.com/v5/compute/5757443> |
 | iGPU Metal | <https://browser.geekbench.com/v5/compute/5757512> |
 
+## Current issues
+
+- Bluetooth lags, see [here](ttps://www.reddit.com/r/hackintosh/comments/yeaa2b/bluetooth_pane_is_lagging_with_entries_os/) for video
+- Entering to sleep takes 20-40 seconds
+- Wake from sleep does not work by keyboard after `pmset` changing
+- System stutters, micro-freeze and/or lags/delays
+
 ## Status
 
 | Features               | Status      | Issues                                                                                                              |
