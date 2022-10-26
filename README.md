@@ -31,6 +31,8 @@ It took my one week and it was very fun and challenging to get it working, findi
 | Web-camera   | Logitech C920 FullHD             |
 | Connectivity | Fenvi T919 1300Mbps              |
 | Headset      | Edifier G4                       |
+| Monitor 1    | Samsung U28E590D                 |
+| Monitor 2    | LG 27UK850-W                     |
 
 ## Status
 
