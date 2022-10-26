@@ -20,11 +20,12 @@ It took my one week and it was very fun and challenging to get it working, findi
 | CPU          | Intel Core i9-9900K             |
 | CPU Cooler   | CM MasterLiquid 240ML           |
 | GPU          | Sapphire Nitro RX 470 4GB       |
-| Memory       | Crucial Ballistix 16GB 3000CL15 |
+| Memory       | Crucial Ballistic 16GB 3000CL15 |
 | SSD macOS    | Samsung 970 EVO 500GB           |
 | SSD Work     | Samsung 970 EVO+ 500GB          |
 | HDD          | Seagate 12TB (8+4)              |
 | PSU          | CM 1200W Platinum               |
+| Case         | Gamdias Athena M2 Elite         |
 | Mouse        | Logitech K470                   |
 | Web-camera   | Logitech C920 FullHD            |
 | Connectivity | Fenvi T919 1300Mbps             |
