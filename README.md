@@ -46,13 +46,13 @@ It took my one week and it was very fun and challenging to get it working, findi
 
 ## Current issues
 
-| Problem                                                             | Refer Link                                                                                                                                                    | Fix                                                                           |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| Bluetooth lags                                                      | [#1](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/1)                                                                                  | No fix yet                                                                    |
-| Entering to sleep takes 20-40 seconds                               | [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3)                                                                                  | No fix yet                                                                    |
-| Wake from sleep does not work by keyboard after `pmset` changing    | -                                                                                                                                                             | [Fix](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) |
-| System stutters, micro-freeze and/or lags/delays                    | -                                                                                                                                                             | No fix yet                                                                    |
-| VP9@8k60 and HEVC encoding does not work but works in Windows 10/11 | [#4](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/4) and [#5](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/5) | No fix yet                                                                    |
+| Problem                                                             | Refer Link                                                                                                                                                     | Fix        |
+| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| Bluetooth lags                                                      | [#1](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/1)                                                                                   | No fix yet |
+| Entering to sleep takes 20-40 seconds                               | [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3)                                                                                   | No fix yet |
+| Wake from sleep does not work                                       | [#2](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) and [#62](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/6) | -          |
+| System stutters, micro-freeze and/or lags/delays                    | -                                                                                                                                                              | No fix yet |
+| VP9@8k60 and HEVC encoding does not work but works in Windows 10/11 | [#4](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/4) and [#5](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/5)  | No fix yet |
 
 ## Status
 
@@ -105,7 +105,14 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 
 ## Debug-mode enable
 
-Just run `git apply debug.patch`, copy `config.plist` to your **EFI** folder and verbose mode will be enabled with additional tweaks.
+Just do these changes and you are good to go
+
+| Option                          | Value    |
+| ------------------------------- | -------- |
+| Misc → Boot → HideAuxiliary     | Disable  |
+| Misc → Boot → ShowPicker        | Check    |
+| Misc → Boot → Timeout           | 5        |
+| NVRAM → 7C436110-\* → boot-args | Add `-v` |
 
 ## Useful Links
 
@@ -125,6 +132,8 @@ Just run `git apply debug.patch`, copy `config.plist` to your **EFI** folder and
 - <https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore>
 - <https://github.com/vanthanhtran245/z390-aorus-pro-wifi-hackintosh>
 - <https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh>
+- <https://github.com/joostiphone/Z390-Hackintosh-Joost>
+- <https://github.com/seven-of-eleven/designare-z390-opencore-efi>
 - <https://github.com/onmotion/hackintosh-z390d/blob/master/README.md>
 - <https://github.com/kakabala/Gigabyte_Z390UD_9700F_OC0.62_Hackintosh>
 - <https://github.com/OpenCore-Hackintoshs/OpenCore-Z390D-i9-9900K-iGPU>
