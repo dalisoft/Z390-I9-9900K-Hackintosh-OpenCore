@@ -46,14 +46,14 @@ It took my one week and it was very fun and challenging to get it working, findi
 
 ## Current issues
 
-| Problem                                                             | Refer Link                                                                                                                                                     | Fix        |
-| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| Bluetooth lags                                                      | [#1](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/1)                                                                                   | No fix yet |
-| Entering to sleep takes 20-40 seconds                               | [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3)                                                                                   | No fix yet |
-| Wake from sleep does not work                                       | [#2](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) and [#62](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/6) | No fix yet |
-| System stutters, micro-freeze and/or lags/delays                    | -                                                                                                                                                              | No fix yet |
-| VP9@8k60 and HEVC encoding does not work but works in Windows 10/11 | [#4](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/4) and [#5](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/5)  | No fix yet |
-| Dual monitor at boot                                                | [#7](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/7)                                                                                   | No fix yet |
+| Problem                                                             | Refer Link                                                                                                                                                    | Fix        |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| Bluetooth lags                                                      | [#1](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/1)                                                                                  | No fix yet |
+| Entering to sleep takes 20-40 seconds                               | [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3)                                                                                  | No fix yet |
+| Wake from sleep does not work                                       | [#2](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) and [#6](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/6) | No fix yet |
+| System stutters, micro-freeze and/or lags/delays                    | -                                                                                                                                                             | No fix yet |
+| VP9@8k60 and HEVC encoding does not work but works in Windows 10/11 | [#4](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/4) and [#5](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/5) | No fix yet |
+| Dual monitor at boot                                                | [#7](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/7)                                                                                  | No fix yet |
 
 ## Status
 
