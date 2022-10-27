@@ -46,13 +46,13 @@ It took my one week and it was very fun and challenging to get it working, findi
 
 ## Current issues
 
-| Problem                                                                   | Refer Link                                                                   | Fix                                                                           |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| Bluetooth lags                                                            | [#1](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/1) | No fix yet                                                                    |
-| Entering to sleep takes 20-40 seconds                                     | [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3) | No fix yet                                                                    |
-| Wake from sleep does not work by keyboard after `pmset` changing          | -                                                                            | [Fix](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) |
-| System stutters, micro-freeze and/or lags/delays                          | -                                                                            | No fix yet                                                                    |
-| VP9@8k60 does not work on machine but it should as works in Windows 10/11 | -                                                                            | No fix yet                                                                    |
+| Problem                                                             | Refer Link                                                                                                                                                    | Fix                                                                           |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Bluetooth lags                                                      | [#1](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/1)                                                                                  | No fix yet                                                                    |
+| Entering to sleep takes 20-40 seconds                               | [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3)                                                                                  | No fix yet                                                                    |
+| Wake from sleep does not work by keyboard after `pmset` changing    | -                                                                                                                                                             | [Fix](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) |
+| System stutters, micro-freeze and/or lags/delays                    | -                                                                                                                                                             | No fix yet                                                                    |
+| VP9@8k60 and HEVC encoding does not work but works in Windows 10/11 | [#4](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/4) and [#5](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/5) | No fix yet                                                                    |
 
 ## Status
 
@@ -92,6 +92,7 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 ## Guides
 
 - Read over <https://dortania.github.io/>
+- [USBMap guide for current motherboard](https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore/blob/master/USBMAP.md)
 
 ### Tools
 
