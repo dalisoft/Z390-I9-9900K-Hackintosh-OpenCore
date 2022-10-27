@@ -50,6 +50,7 @@ It took my one week and it was very fun and challenging to get it working, findi
 - Entering to sleep takes 20-40 seconds
 - Wake from sleep does not work by keyboard after `pmset` changing
 - System stutters, micro-freeze and/or lags/delays
+- VP9@8k60 does not work on machine but it should as works in Windows 10/11
 
 ## Status
 
@@ -80,6 +81,7 @@ It took my one week and it was very fun and challenging to get it working, findi
 | Wake/Sleep             | Not working | Works but not properly, entering sleep takes 20-40 sec                                                              |
 | Power Nap              | Not working | Disabled as workaround to fix wake-up itself                                                                        |
 | Bluetooth lags         | Not fixed   | See **Bluetooth** link above                                                                                        |
+| VP9@8K60               | Not working | It works fine on Windows 10/11                                                                                      |
 
 ## Prerequisite
 
