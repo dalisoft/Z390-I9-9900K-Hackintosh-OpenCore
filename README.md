@@ -50,40 +50,42 @@ It took my one week and it was very fun and challenging to get it working, findi
 | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
 | Bluetooth lags                                                      | [#1](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/1)                                                                                   | No fix yet |
 | Entering to sleep takes 20-40 seconds                               | [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3)                                                                                   | No fix yet |
-| Wake from sleep does not work                                       | [#2](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) and [#62](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/6) | -          |
+| Wake from sleep does not work                                       | [#2](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) and [#62](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/6) | No fix yet |
 | System stutters, micro-freeze and/or lags/delays                    | -                                                                                                                                                              | No fix yet |
 | VP9@8k60 and HEVC encoding does not work but works in Windows 10/11 | [#4](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/4) and [#5](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/5)  | No fix yet |
+| Dual monitor at boot                                                | [#7](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/7)                                                                                   | No fix yet |
 
 ## Status
 
-| Features               | Status      | Issues                                                                                                              |
-| ---------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------- |
-| Ethernet               | Working     | -                                                                                                                   |
-| Wi-Fi                  | Working     | -                                                                                                                   |
-| Bluetooth              | Working     | Lagging, see [here](https://www.reddit.com/r/hackintosh/comments/yeaa2b/bluetooth_pane_is_lagging_with_entries_os/) |
-| iGPU                   | Working     | -                                                                                                                   |
-| dGPU + HW acceleration | Working     | -                                                                                                                   |
-| On-board audio         | Working     | -                                                                                                                   |
-| App Store              | Working     | -                                                                                                                   |
-| iCloud                 | Working     | -                                                                                                                   |
-| Shutdown / Restart     | Working     | -                                                                                                                   |
-| USB                    | Working     | No issues, see **USBPorts kext**                                                                                    |
-| Handoff                | Working     | -                                                                                                                   |
-| Airdrop, AirPlay       | Working     | -                                                                                                                   |
-| Continuity             | Working     | -                                                                                                                   |
-| Apple TV+              | Working     | Sometimes it does not work, idk why?                                                                                |
-| File Vault             | Not tested  | -                                                                                                                   |
-| HDMI audio             | Not tested  | -                                                                                                                   |
-| All DP/HDMI ports      | Not tested  | -                                                                                                                   |
-| Dual monitor from boot | Not tested  | -                                                                                                                   |
-| Apple Music / iTunes   | Not tested  | -                                                                                                                   |
-| iMessage               | Not working | It does not work on my Macs                                                                                         |
-| FaceTime               | Not working | Same as iMessage                                                                                                    |
-| DRM                    | Not working | Tested in Safari (Netflix), on Chrome works                                                                         |
-| Wake/Sleep             | Not working | Works but not properly, entering sleep takes 20-40 sec                                                              |
-| Power Nap              | Not working | Disabled as workaround to fix wake-up itself                                                                        |
-| Bluetooth lags         | Not fixed   | See **Bluetooth** link above                                                                                        |
-| VP9@8K60               | Not working | It works fine on Windows 10/11                                                                                      |
+| Features                | Status      | Issues                                                                                                              |
+| ----------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------- |
+| Ethernet                | Working     | -                                                                                                                   |
+| Wi-Fi                   | Working     | -                                                                                                                   |
+| Bluetooth               | Working     | Lagging, see [here](https://www.reddit.com/r/hackintosh/comments/yeaa2b/bluetooth_pane_is_lagging_with_entries_os/) |
+| iGPU                    | Working     | -                                                                                                                   |
+| dGPU + HW acceleration  | Working     | -                                                                                                                   |
+| On-board audio          | Working     | -                                                                                                                   |
+| App Store               | Working     | -                                                                                                                   |
+| iCloud                  | Working     | -                                                                                                                   |
+| Shutdown / Restart      | Working     | -                                                                                                                   |
+| USB                     | Working     | No issues, see **USBPorts kext**                                                                                    |
+| Handoff                 | Working     | -                                                                                                                   |
+| Airdrop, AirPlay        | Working     | -                                                                                                                   |
+| Continuity              | Working     | -                                                                                                                   |
+| Apple TV+               | Working     | Sometimes it does not work, idk why?                                                                                |
+| Dual monitor after boot | Working     | -                                                                                                                   |
+| File Vault              | Not tested  | -                                                                                                                   |
+| HDMI audio              | Not tested  | -                                                                                                                   |
+| All DP/HDMI ports       | Not tested  | -                                                                                                                   |
+| Apple Music / iTunes    | Not tested  | -                                                                                                                   |
+| iMessage                | Not working | It does not work on my Macs                                                                                         |
+| FaceTime                | Not working | Same as iMessage                                                                                                    |
+| DRM                     | Not working | Tested in Safari (Netflix), on Chrome works                                                                         |
+| Wake/Sleep              | Not working | Works but not properly, entering sleep takes 20-40 sec                                                              |
+| Power Nap               | Not working | Disabled as workaround to fix wake-up itself                                                                        |
+| Bluetooth lags          | Not fixed   | See **Bluetooth** link above                                                                                        |
+| VP9@8K60                | Not working | It works fine on Windows 10/11                                                                                      |
+| Dual monitor from boot  | Not working | See [#7](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/7)                                    |
 
 ## Prerequisite
 
