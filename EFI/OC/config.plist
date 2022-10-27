@@ -462,7 +462,7 @@
 				<key>Comment</key>
 				<string>Fans</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>MaxKernel</key>
@@ -849,7 +849,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 swd_panic=1 alcid=15 darkwake=0 forceRenderStandby=0</string>
+				<string>keepsyms=1 swd_panic=1 alcid=15 forceRenderStandby=0</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>

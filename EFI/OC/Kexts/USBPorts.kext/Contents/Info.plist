@@ -55,9 +55,9 @@
 					<key>HS11</key>
 					<dict>
 						<key>Comment</key>
-						<string>Case USB 2.0</string>
+						<string>Fenvi T919 BT + Case USB 2.0</string>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS11</string>
 						<key>port</key>
