@@ -46,11 +46,13 @@ It took my one week and it was very fun and challenging to get it working, findi
 
 ## Current issues
 
-- Bluetooth lags, see [here](https://www.reddit.com/r/hackintosh/comments/yeaa2b/bluetooth_pane_is_lagging_with_entries_os/) for video
-- Entering to sleep takes 20-40 seconds
-- Wake from sleep does not work by keyboard after `pmset` changing
-- System stutters, micro-freeze and/or lags/delays
-- VP9@8k60 does not work on machine but it should as works in Windows 10/11
+| Problem                                                                   | Refer Link                                                                   | Fix                                                                          |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Bluetooth lags                                                            | [#1](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/1) | No fix yet                                                                   |
+| Entering to sleep takes 20-40 seconds                                     | -                                                                            | No fix yet                                                                   |
+| Wake from sleep does not work by keyboard after `pmset` changing          | -                                                                            | [Fix](ttps://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) |
+| System stutters, micro-freeze and/or lags/delays                          | -                                                                            | No fix yet                                                                   |
+| VP9@8k60 does not work on machine but it should as works in Windows 10/11 | -                                                                            | No fix yet                                                                   |
 
 ## Status
 
