@@ -41,6 +41,7 @@ It took my one week and it was very fun and challenging to get it working, findi
 | Name       | Link                                               |
 | ---------- | -------------------------------------------------- |
 | CPU        | <https://browser.geekbench.com/v5/cpu/18212261>    |
+| CPU Win11  | <https://browser.geekbench.com/v5/cpu/18455893>    |
 | dGPU Metal | <https://browser.geekbench.com/v5/compute/5757443> |
 | iGPU Metal | <https://browser.geekbench.com/v5/compute/5757512> |
 
