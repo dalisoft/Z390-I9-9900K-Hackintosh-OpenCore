@@ -137,10 +137,11 @@ Just do these changes and you are good to go
 - <https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh>
 - <https://github.com/joostiphone/Z390-Hackintosh-Joost>
 - <https://github.com/seven-of-eleven/designare-z390-opencore-efi>
-- <https://github.com/onmotion/hackintosh-z390d/blob/master/README.md>
+- <https://github.com/onmotion/hackintosh-z390d>
 - <https://github.com/kakabala/Gigabyte_Z390UD_9700F_OC0.62_Hackintosh>
 - <https://github.com/OpenCore-Hackintoshs/OpenCore-Z390D-i9-9900K-iGPU>
 - <https://github.com/czombos/asus-rog-strix-z390-i-gaming-hackintosh>
 - <https://github.com/markuslohn/asus-rog-z390i-hackintosh>
 - <https://github.com/idev1669/Hackintosh-Opencore-Z390-A>
 - <https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX_OC>
+- <https://github.com/leto1210/z390-Hack>
