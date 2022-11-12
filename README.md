@@ -53,7 +53,6 @@ It took my one week and it was very fun and challenging to get it working, findi
 | Entering to sleep takes 20-40 seconds                               | [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3)                                                                                  | No fix yet |
 | Wake from sleep does not work                                       | [#2](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) and [#6](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/6) | No fix yet |
 | System stutters, micro-freeze and/or lags/delays                    | -                                                                                                                                                             | No fix yet |
-| VP9@8k60 and HEVC encoding does not work but works in Windows 10/11 | [#4](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/4) and [#5](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/5) | No fix yet |
 | Dual monitor at boot                                                | [#7](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/7)                                                                                  | No fix yet |
 
 ## Status
@@ -85,7 +84,6 @@ It took my one week and it was very fun and challenging to get it working, findi
 | Wake/Sleep              | Not working | Works but not properly, entering sleep takes 20-40 sec                                                              |
 | Power Nap               | Not working | Disabled as workaround to fix wake-up itself                                                                        |
 | Bluetooth lags          | Not fixed   | See **Bluetooth** link above                                                                                        |
-| VP9@8K60                | Not working | It works fine on Windows 10/11                                                                                      |
 | Dual monitor from boot  | Not working | See [#7](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/7)                                    |
 
 ## Prerequisite
