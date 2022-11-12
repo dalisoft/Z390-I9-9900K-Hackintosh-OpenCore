@@ -131,6 +131,7 @@ Just do these changes and you are good to go
 
 ## Similar OC EFI shared folders
 
+- <https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING>
 - <https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i9-9900k-5700XT>
 - <https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore>
 - <https://github.com/vanthanhtran245/z390-aorus-pro-wifi-hackintosh>
