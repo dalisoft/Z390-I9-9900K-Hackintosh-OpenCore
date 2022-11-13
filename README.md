@@ -47,13 +47,13 @@ It took my one week and it was very fun and challenging to get it working, findi
 
 ## Current issues
 
-| Problem                                                             | Refer Link                                                                                                                                                    | Fix        |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| Bluetooth lags                                                      | [#1](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/1)                                                                                  | No fix yet |
-| Entering to sleep takes 20-40 seconds                               | [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3)                                                                                  | No fix yet |
-| Wake from sleep does not work                                       | [#2](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) and [#6](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/6) | No fix yet |
-| System stutters, micro-freeze and/or lags/delays                    | -                                                                                                                                                             | No fix yet |
-| Dual monitor at boot                                                | [#7](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/7)                                                                                  | No fix yet |
+| Problem                                          | Refer Link                                                                                                                                                    | Fix        |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| Bluetooth lags                                   | [#1](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/1)                                                                                  | No fix yet |
+| Entering to sleep takes 20-40 seconds            | [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3)                                                                                  | No fix yet |
+| Wake from sleep does not work                    | [#2](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) and [#6](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/6) | No fix yet |
+| System stutters, micro-freeze and/or lags/delays | -                                                                                                                                                             | No fix yet |
+| Dual monitor at boot                             | [#7](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/7)                                                                                  | No fix yet |
 
 ## Status
 
@@ -94,6 +94,46 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 
 - Read over <https://dortania.github.io/>
 - [USBMap guide for current motherboard](https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore/blob/master/USBMAP.md)
+
+## File structure
+
+```bash
+.
+├── BOOT
+│   └── BOOTx64.efi
+└── OC
+    ├── ACPI
+    │   ├── SSDT-GPRW.aml
+    │   ├── SSDT-HPET.aml
+    │   ├── SSDT-PLUG.aml
+    │   ├── SSDT-PMC.aml
+    │   ├── SSDT-SBUS-MCHC.aml
+    │   ├── SSDT-UIAC.aml
+    │   └── SSDT-USBX.aml
+    ├── Drivers
+    │   ├── OpenCanopy.efi
+    │   └── OpenRuntime.efi
+    ├── Kexts
+    │   ├── AppleALC.kext
+    │   ├── IntelMausi.kext
+    │   ├── Lilu.kext
+    │   ├── NVMeFix.kext
+    │   ├── SMCProcessor.kext
+    │   ├── SMCSuperIO.kext
+    │   ├── USBPorts.kext
+    │   ├── VirtualSMC.kext
+    │   └── WhateverGreen.kext
+    ├── OpenCore.efi
+    ├── Resources
+    │   ├── Audio
+    │   ├── Font
+    │   ├── Image
+    │   └── Label
+    ├── Tools
+    │   ├── OpenShell.efi
+    │   └── ResetSystem.efi
+    └── config.plist
+```
 
 ### Tools
 
