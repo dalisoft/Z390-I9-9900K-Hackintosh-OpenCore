@@ -48,7 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Instant-wake patch</string>
+				<string>Instant-wake patch (SSDT-GPRW)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -223,7 +223,7 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>Instant-wake patch combination with DSDT</string>
+				<string>Instant-wake patch combination with DSDT (GPRW to XPRW)</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
