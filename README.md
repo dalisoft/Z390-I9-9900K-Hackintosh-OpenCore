@@ -171,6 +171,7 @@ Just do these changes and you are good to go
 
 - <https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore>
 - <https://github.com/vanthanhtran245/z390-aorus-pro-wifi-hackintosh>
+- <https://github.com/himwho/gigabyte-z390-aorus-pro-wifi-mitx-hackintosh-opencore>
 - <https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh>
 - <https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING>
 - <https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i9-9900k-5700XT>
@@ -184,3 +185,4 @@ Just do these changes and you are good to go
 - <https://github.com/idev1669/Hackintosh-Opencore-Z390-A>
 - <https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX_OC>
 - <https://github.com/leto1210/z390-Hack>
+- <https://github.com/perez987/macOS-12-13-on-Z390-with-OpenCore>
