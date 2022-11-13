@@ -699,6 +699,8 @@
 			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
+			<key>AllowToggleSip</key>
+			<true/>
 		</dict>
 		<key>Serial</key>
 		<dict>
