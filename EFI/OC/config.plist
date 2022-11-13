@@ -796,7 +796,7 @@
 				<key>FullNvramAccess</key>
 				<true/>
 				<key>Name</key>
-				<string>GRUB Shell</string>
+				<string>Clear NvRAM</string>
 				<key>Path</key>
 				<string>CleanNvram.efi</string>
 				<key>RealPath</key>
