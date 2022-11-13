@@ -790,7 +790,7 @@
 				<key>Comment</key>
 				<string>NvRAM clear OC tool</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
