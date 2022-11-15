@@ -6,7 +6,9 @@ It took my one week and it was very fun and challenging to get it working, findi
 
 **I do not provide any warranty nor support, use at your own risk**
 
-![About macOS](./images/about.png)
+| ![About macOS](./images/about.png) | ![About macOS Ventura](./images/about-ventura.png) |
+| - | - |
+|   |   |
 
 ## My BIOS settings
 
