@@ -298,6 +298,12 @@
 				<string>VGA compatible controller</string>
 				<key>model</key>
 				<string>Sapphire RX 470 Nitro</string>
+				<key>connectors</key>
+				<data>ExMNDRI=</data>
+				<key>connector-count</key>
+				<data>BQAAAA==</data>
+				<key>connector-priority</key>
+				<data>AwYFAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
 			<dict>
