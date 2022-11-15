@@ -81,7 +81,6 @@ It took my one week and it was very fun and challenging to get it working, findi
 | DRM                     | Not working | Tested in Safari (Netflix), on Chrome works                                                                                                                                                 |
 | Wake/Sleep              | Not working | Works but not properly, see [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3) and [#10](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/10) |
 | Power Nap               | Not working | Disabled as workaround to fix wake-up itself                                                                                                                                                |
-| BT devices after wake   | Not working | See [#10](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/10)                                                                                                          |
 
 ## Prerequisite
 
