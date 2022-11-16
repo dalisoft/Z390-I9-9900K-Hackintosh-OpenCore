@@ -53,6 +53,8 @@ It took my one week and it was very fun and challenging to get it working, findi
 | Entering to sleep takes 20-40 seconds            | [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3)                                                                                  | No fix yet |
 | Wake from sleep does not work                    | [#2](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/2) and [#6](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/6) | No fix yet |
 | BT devices not reacting after wake               | [#10](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/10)                                                                                | No fix yet |
+| USB Power Management                             | [#12](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/12)                                                                                | No fix yet |
+| Fans / VirtualSMC                                | [#13](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/13)                                                                                | No fix yet |
 
 ## Status
 
@@ -67,7 +69,7 @@ It took my one week and it was very fun and challenging to get it working, findi
 | App Store               | Working     | -                                                                                                                                                                                           |
 | iCloud                  | Working     | -                                                                                                                                                                                           |
 | Shutdown / Restart      | Working     | -                                                                                                                                                                                           |
-| USB                     | Working     | No issues, see **USBPorts kext**                                                                                                                                                            |
+| USB                     | Working     | See [#12](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/12)                                                                                                          |
 | Handoff                 | Working     | -                                                                                                                                                                                           |
 | Airdrop, AirPlay        | Working     | -                                                                                                                                                                                           |
 | Continuity              | Working     | -                                                                                                                                                                                           |
@@ -80,6 +82,7 @@ It took my one week and it was very fun and challenging to get it working, findi
 | iMessage                | Not working | It does not work on my Macs                                                                                                                                                                 |
 | FaceTime                | Not working | Same as iMessage                                                                                                                                                                            |
 | DRM                     | Not working | See [#11](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/11)                                                                                                          |
+| Fans/VirtualSMC         | Not working | See [#13](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/13)                                                                                                          |
 | Wake/Sleep              | Not working | Works but not properly, see [#3](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/3) and [#10](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/10) |
 | Power Nap               | Not working | Disabled as workaround to fix wake-up itself                                                                                                                                                |
 
