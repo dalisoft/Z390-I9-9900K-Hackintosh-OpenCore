@@ -55,6 +55,7 @@ It took my one week and it was very fun and challenging to get it working, findi
 | BT devices not reacting after wake               | [#10](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/10)                                                                                | No fix yet |
 | USB Power Management                             | [#12](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/12)                                                                                | No fix yet |
 | Fans / VirtualSMC                                | [#13](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/13)                                                                                | No fix yet |
+| Bzz sound on Scroll or Launchpad                 | [#14](https://github.com/dalisoft/Z390-I9-9900K-Hackintosh-OpenCore/issues/14)                                                                                | No fix yet |
 
 ## Status
 
