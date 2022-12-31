@@ -62,9 +62,40 @@
 				<key>Path</key>
 				<string>SSDT-UIAC.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>VT-d enabling for Ventura and higher</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-DMAR.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AQC107-B0 10GbE Inject</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-AQUANTIA.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
-		<array/>
+		<array>
+			<dict>
+				<key>All</key>
+				<false/>
+				<key>Comment</key>
+				<string>Delete DMAR Table</string>
+				<key>Enabled</key>
+				<true/>
+				<key>OemTableId</key>
+				<data></data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RE1BUg==</data>
+			</dict>
+		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -300,6 +331,8 @@
 				<string>Sapphire RX 470 Nitro</string>
 				<key>connectors</key>
 				<data>ExMNDRI=</data>
+				<key>name</key>
+				<string>Sapphire RX 470 Nitro</string>
 				<key>connector-count</key>
 				<data>BQAAAA==</data>
 				<key>connector-priority</key>
@@ -333,6 +366,8 @@
 				<integer>29</integer>
 				<key>model</key>
 				<string>Audio Device</string>
+				<key>name</key>
+				<string>Realtek Audio device</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -354,8 +389,21 @@
 				<data>AgAAAA==</data>
 				<key>model</key>
 				<string>Intel UHD Graphics 630</string>
+				<key>name</key>
+				<string>Intel UHD Graphics 630</string>
 				<key>rps-control</key>
 				<data>AQAAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x7)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>device_type</key>
+				<string>Network controller</string>
+				<key>model</key>
+				<string>Wireless Card Wi-Fi 5/AC</string>
+				<key>name</key>
+				<string>Fenvi T919 Wi-Fi 5/AC Card</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -546,7 +594,38 @@
 		<key>Force</key>
 		<array/>
 		<key>Patch</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>AQC 107 10 GbE v3</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>D4RFAwAA</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>21.4.0</string>
+				<key>Replace</key>
+				<data>Zg8fRAAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -562,7 +641,7 @@
 			<key>CustomPciSerialDevice</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<true/>
+			<false/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
